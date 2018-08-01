@@ -1,0 +1,116 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.topb ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.topb li a {
+    display: block;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topb li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.topb .active {
+    background-color: #555;
+    color: white;
+}
+
+.topb li{
+    text-align: center;
+    float: right;
+}
+
+.botbr ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    bottom: 0;
+    position: absolute;
+    left: 1020px;
+}
+
+.botbr li a {
+    display: block;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.botbr li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.botbr .active {
+    background-color: #555;
+    color: white;
+}
+
+.botbr li{
+    text-align: center;
+    float: right;
+}
+
+.botbl ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    bottom: 0;
+    position: absolute;
+    left: 0px;
+}
+
+.botbl li a {
+    display: block;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.botbl li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.botbl .active {
+    background-color: #555;
+    color: white;
+}
+
+.botbl li{
+    text-align: center;
+    float: right;
+}
+
+input[type="button"] {
+    height: 36px;
+    line-height: 27px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
