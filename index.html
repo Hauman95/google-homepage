@@ -1,49 +1,44 @@
 <!doctype html>
-<head>
-    <title>Google</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style type="text/css"></style>
-</head>
-<body>
-    <div class="front">
-        <div class="topb">
-            <ul>
-                <li><a href="#">Account</a></li>
-                <li><a href="#">Notifications</a></li>
-                <li><a href="#">Apps</a></li>
-                <li><a href="#">Images</a></li>
-                <li><a href="#">Gmail</a></li>
-            </ul>
+<html>
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style type="text/css"></style>
+    </head>
+    <body>
+        <div>
+            <img class="glogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
-        <center>
-            <div style="height:223px;margin-top: 89px;">
-                <img alt="Google" height="92" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="padding-top: 109px;">
-            </div>
-            <div class="form" style="height: 80px;">
-                <input maxlength="2048" name="q" title="Search" type="text" style="border: solid; padding: 0px; margin: 0px; height: 44px; width: 50%; font-size 40px;">
-            </div>
-        </center>
-        <div class="search-button">
-            <center>
-                <input value="Google Search" name="cts" type="button"
-            </center>
+        <div class="front">
+            <form>
+                <input class="searchbox" type="text" name="search">
+                <input class="button b1" type="submit" value="Google Search">
+                <input class="button b2" type="submit" value="I'm Feeling Lucky">
+            </form>
         </div>
-        <div class="botb">
-            <div class="botbr">
-                <ul>
-                    <li><a href="#">Settings</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Privacy</a></li>
-                </ul>
-            </div>
-            <div class="botbl">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">Advertising</a></li>
-                </ul>
-            </div>
+        <div class="topbar">
+            <a class="tops" href="#">Gmail</a>
+            <a class="tops" href="#">Images</a>
+            <a class="tops" href="#">
+                <img class="apps" src="https://cdn1.iconfinder.com/data/icons/material-core/16/apps-128.png">
+            </a>
+            <a class="signin" href="#">Sign In</a>
         </div>
-    </div>
-    
-</body>
+        <div class="botlbar">
+            <a class="botsl" href="#">Advertising</a>
+            <a class="botsl" href="#">Business</a>
+            <a class="botsl" href="#">About</a>
+        </div>
+        <div class="botrbar">
+            <a class="botsr" href="#">Privacy</a>
+            <a class="botsr" href="#">Terms</a>
+            <a class="botsr" href="#">Settings</a>
+        </div>
+        <div>
+            <p class="country">Denmark</p>
+        </div>
+        <div class="bottombox"></div>
+        <div class="topline"></div>
+        <div class="botline"></div>
+    </body>
+</html>
